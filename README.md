@@ -11,19 +11,33 @@ QUHAIM Toolkit Pro is an Arabic-first Windows toolkit built with PowerShell 7 an
 
 ## Installation
 
-Use the official installer when distributing the application:
+### Portable ZIP (recommended — no AV issues)
+
+```powershell
+# Extract
+Expand-Archive .\QUHAIMToolkitPro_v0.4.6.2_portable.zip -DestinationPath .
+
+# Run
+.\QUHAIMToolkitPro\QUHAIMToolkitPro.cmd
+```
+
+The ZIP is the safest way to run the toolkit immediately. No installation, no registry changes, no Admin required.
+
+ZIP release page: <https://github.com/quhaimlaps/QUHAIMToolkitPro/releases>
+
+### EXE Installer (blocked — unsigned)
 
 ```powershell
 QUHAIMToolkitProSetup.exe
 ```
 
-The installer places the application under:
+The unsigned EXE installer is blocked from public release because Microsoft Defender and other AV engines produce false-positive ML detections. This is a known issue with unsigned Inno Setup installers — faced by Cursor, JUCE, and many other open-source projects.
 
-```text
-C:\Program Files\QUHAIM Labs\QUHAIM Toolkit Pro
-```
+**Plan**: The project qualifies for [SignPath Foundation](https://signpath.org) free code signing. Once approved, future releases will include a signed installer.
 
-PowerShell 7 is required. If it is missing, install it with:
+Installer path: `C:\Program Files\QUHAIM Labs\QUHAIM Toolkit Pro`
+
+### PowerShell 7 Required
 
 ```powershell
 winget install Microsoft.PowerShell

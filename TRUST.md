@@ -35,16 +35,21 @@ Writable runtime folders are limited to:
 
 Some plugins may ask for elevation only when a selected action requires administrator access.
 
-## Official Installer Verification
+## Portable ZIP Release
 
-Official releases should include:
+The recommended distribution format is a portable ZIP (no installer, no registry, no Admin required).
 
-- `QUHAIMToolkitProSetup.exe`
-- `QUHAIMToolkitProSetup.exe.sha256`
-- Release notes describing changes
-- A VirusTotal report link when available
+Users can verify the ZIP with:
 
-Users can verify the SHA256 hash with:
+```powershell
+Get-FileHash .\QUHAIMToolkitPro_v0.4.6.2_portable.zip -Algorithm SHA256
+```
+
+Compare the result with the SHA256 hash published on the GitHub release page.
+
+## Official EXE Installer Verification
+
+The unsigned EXE installer is blocked from public release due to false-positive AV detections. If you are testing the installer locally:
 
 ```powershell
 Get-FileHash .\QUHAIMToolkitProSetup.exe -Algorithm SHA256
@@ -58,13 +63,17 @@ Do not trust installers downloaded from unofficial sources. Verify the SHA256 ch
 
 If Microsoft or multiple reputable security vendors flag an installer, that installer must not be published as an official release asset until the issue is resolved through a safer packaging path, vendor false-positive review, or code signing.
 
-Current scan status placeholder:
+Current scan status:
 
 ```text
-VirusTotal scan: EXE installer release blocked pending code signing or vendor review
+EXE installer: BLOCKED — 3/69 detections (Microsoft ML false positive)
+ZIP release: Published — no AV scanning required (no executable)
+Code signing: Pending SignPath Foundation application
 ```
 
-After scanning, replace the placeholder with the official VirusTotal URL:
+The ZIP release does not need a VirusTotal scan because it contains no executable installer. Users verify the ZIP by its published SHA256 hash.
+
+Once the installer is code-signed via SignPath, the new signed EXE will be scanned and the URL published here:
 
 ```text
 VirusTotal scan: https://www.virustotal.com/gui/file/<sha256>
