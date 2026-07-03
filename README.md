@@ -55,6 +55,10 @@ See:
 - `SECURITY.md`
 - `TRUST.md`
 
+## Code Signing
+
+Official releases are signed through [SignPath Foundation](https://signpath.org) — free code signing for open-source projects. This provides verified publisher identity on Windows.
+
 ## Development
 
 Run the GUI from the project root:
