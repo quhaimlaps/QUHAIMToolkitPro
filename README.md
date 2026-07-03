@@ -46,13 +46,13 @@ See:
 Run the GUI from the project root:
 
 ```powershell
-pwsh.exe -STA -NoLogo -NoProfile -ExecutionPolicy Bypass -File .\Gui\Shell\QUHAIMToolkitPro.Gui.ps1
+pwsh.exe -STA -NoLogo -NoProfile -File .\Gui\Shell\QUHAIMToolkitPro.Gui.ps1
 ```
 
 Build the setup package:
 
 ```powershell
-powershell.exe -ExecutionPolicy Bypass -File .\Installer\Build-QUHAIMToolkitProSetup.ps1
+powershell.exe -File .\Installer\Build-QUHAIMToolkitProSetup.ps1
 ```
 
 ## Distribution Rules

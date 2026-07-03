@@ -4,18 +4,17 @@ param(
 )
 
 $shortcutName = "QUHAIM Toolkit Pro.lnk"
-$targetVbs = Join-Path $InstallDir "QUHAIMToolkitPro.vbs"
+$targetLauncher = Join-Path $InstallDir "QUHAIMToolkitPro.cmd"
 $iconPath = Join-Path $InstallDir "Assets\Branding\quhaim-toolkit-pro.ico"
 
-if (-not (Test-Path $targetVbs)) {
-  throw "Launcher not found: $targetVbs"
+if (-not (Test-Path $targetLauncher)) {
+  throw "Launcher not found: $targetLauncher"
 }
 
 $wsh = New-Object -ComObject WScript.Shell
 $linkPath = Join-Path $ShortcutLocation $shortcutName
 $shortcut = $wsh.CreateShortcut($linkPath)
-$shortcut.TargetPath = "wscript.exe"
-$shortcut.Arguments = '"' + $targetVbs + '"'
+$shortcut.TargetPath = $targetLauncher
 $shortcut.WorkingDirectory = $InstallDir
 $shortcut.Description = "QUHAIM Toolkit Pro"
 

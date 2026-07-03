@@ -8,7 +8,7 @@ echo Project: %APP_DIR%
 echo GUI: %GUI%
 echo PWSH: pwsh.exe
 echo.
-pwsh.exe -STA -NoLogo -NoProfile -ExecutionPolicy Bypass -File "%GUI%"
+pwsh.exe -STA -NoLogo -NoProfile -File "%GUI%"
 echo.
 echo Program closed or failed.
 pause

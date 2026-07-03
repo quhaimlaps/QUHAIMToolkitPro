@@ -130,7 +130,13 @@ function Invoke-HtpGuiPlugin {
 
     if ($needsAdmin -and -not $isAdmin) {
         try {
+            $tempDir = Join-Path $script:HTP_ROOT "Data\Temp"
+            if (!(Test-Path $tempDir)) {
+                New-Item -ItemType Directory -Path $tempDir -Force | Out-Null
+            }
+
             $outFile = Join-Path $script:HTP_ROOT "Data\Temp\last_admin_plugin_output.txt"
+            $tempCommand = Join-Path $tempDir "run_admin_plugin.ps1"
             if (Test-Path $outFile) {
                 Remove-Item $outFile -Force
             }
@@ -154,10 +160,12 @@ catch {
 }
 "@
 
-            $encodedEntry = [Convert]::ToBase64String([Text.Encoding]::Unicode.GetBytes($command))
-            $args = "-NoLogo -NoProfile -ExecutionPolicy Bypass -EncodedCommand $encodedEntry"
+            Set-Content -Path $tempCommand -Value $command -Encoding UTF8
+            $args = "-NoLogo -NoProfile -File `"$tempCommand`""
 
             Start-Process "pwsh.exe" -ArgumentList $args -Verb RunAs -Wait
+
+            Remove-Item $tempCommand -Force -ErrorAction SilentlyContinue
 
             if (Test-Path $outFile) {
                 $result = Get-Content $outFile -Raw

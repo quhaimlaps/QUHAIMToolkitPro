@@ -145,7 +145,6 @@ $items = @(
     "QUHAIMToolkitPro.cmd",
     "QUHAIMToolkitPro.Console.cmd",
     "QUHAIMToolkitPro.Diagnostic.cmd",
-    "QUHAIMToolkitPro.vbs",
     "README.md",
     "LICENSE",
     "NOTICE",
@@ -155,9 +154,7 @@ $items = @(
 
 foreach ($item in $items) { Copy-ProjectItem $item }
 
-$payloadData = Join-Path $PayloadRoot "Data\Downloads"
-New-Item -ItemType Directory -Path $payloadData -Force | Out-Null
-Get-ChildItem (Join-Path $ProjectRoot "Data\Downloads") -Filter "QUHAIM-*.ps1" -ErrorAction SilentlyContinue | Copy-Item -Destination $payloadData -Force
+New-Item -ItemType Directory -Path (Join-Path $PayloadRoot "Data") -Force | Out-Null
 New-Item -ItemType Directory -Path (Join-Path $PayloadRoot "Logs") -Force | Out-Null
 New-Item -ItemType Directory -Path (Join-Path $PayloadRoot "Reports") -Force | Out-Null
 

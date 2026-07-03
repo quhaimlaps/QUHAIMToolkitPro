@@ -12,5 +12,5 @@ if errorlevel 1 (
     exit /b 1
 )
 
-pwsh.exe -STA -NoLogo -NoProfile -ExecutionPolicy Bypass -File "%GUI%"
+pwsh.exe -STA -NoLogo -NoProfile -File "%GUI%"
 endlocal

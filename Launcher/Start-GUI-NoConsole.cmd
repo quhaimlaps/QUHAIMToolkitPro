@@ -2,8 +2,8 @@
 setlocal
 
 set "APP_DIR=%~dp0.."
-set "VBS=%APP_DIR%\QUHAIMToolkitPro.vbs"
+set "LAUNCHER=%APP_DIR%\QUHAIMToolkitPro.cmd"
 
-wscript.exe "%VBS%"
+start "" "%LAUNCHER%"
 
 endlocal
