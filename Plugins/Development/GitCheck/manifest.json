@@ -1,0 +1,14 @@
+{
+  "id": "dev.gitcheck",
+  "name": "فحص Git",
+  "version": "1.0.0",
+  "author": "QUHAIM Labs",
+  "category": "💻 أدوات التطوير",
+  "description": "فحص وجود Git وإصدار Git الحالي.",
+  "engine": "powershell",
+  "entry": "main.ps1",
+  "enabled": true,
+  "requiresAdmin": false,
+  "runMode": "normal",
+  "order": 10
+}

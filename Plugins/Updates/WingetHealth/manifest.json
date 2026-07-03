@@ -1,0 +1,14 @@
+{
+  "id": "updates.winget.health",
+  "name": "فحص حالة Winget",
+  "version": "1.0.0",
+  "author": "QUHAIM Labs",
+  "category": "📦 التحديثات",
+  "description": "فحص حالة Winget وإصداره ومساره بدون تعديل النظام.",
+  "engine": "powershell",
+  "entry": "main.ps1",
+  "enabled": true,
+  "requiresAdmin": false,
+  "runMode": "normal",
+  "order": 15
+}

@@ -1,0 +1,14 @@
+{
+  "id": "ai.placeholder",
+  "name": "خارطة أدوات الذكاء الاصطناعي",
+  "version": "1.0.0",
+  "author": "QUHAIM Labs",
+  "category": "🤖 أدوات الذكاء الاصطناعي",
+  "description": "قسم تمهيدي لأدوات Claude وOpenCode وOllama لاحقًا.",
+  "engine": "powershell",
+  "entry": "main.ps1",
+  "enabled": true,
+  "requiresAdmin": false,
+  "runMode": "normal",
+  "order": 10
+}

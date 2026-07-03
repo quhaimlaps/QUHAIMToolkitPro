@@ -1,0 +1,14 @@
+{
+  "id": "system.info",
+  "name": "معلومات النظام",
+  "version": "1.0.2",
+  "author": "QUHAIM Labs",
+  "category": "🖥️ أدوات النظام",
+  "description": "عرض معلومات أساسية عن الجهاز وإصدار PowerShell داخل واجهة البرنامج.",
+  "engine": "powershell",
+  "entry": "main.ps1",
+  "enabled": true,
+  "requiresAdmin": false,
+  "runMode": "normal",
+  "order": 10
+}

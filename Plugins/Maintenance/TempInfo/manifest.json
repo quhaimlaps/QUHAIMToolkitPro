@@ -1,0 +1,14 @@
+{
+  "id": "maintenance.tempinfo",
+  "name": "معلومات الملفات المؤقتة",
+  "version": "1.0.0",
+  "author": "QUHAIM Labs",
+  "category": "🛠️ أدوات الصيانة",
+  "description": "عرض معلومات عن مجلد الملفات المؤقتة بدون حذف أي شيء.",
+  "engine": "powershell",
+  "entry": "main.ps1",
+  "enabled": true,
+  "requiresAdmin": false,
+  "runMode": "normal",
+  "order": 10
+}

@@ -1,0 +1,14 @@
+{
+  "id": "network.info",
+  "name": "معلومات الشبكة",
+  "version": "1.0.0",
+  "author": "QUHAIM Labs",
+  "category": "🌐 أدوات الشبكة",
+  "description": "عرض معلومات أساسية عن عناوين الشبكة.",
+  "engine": "powershell",
+  "entry": "main.ps1",
+  "enabled": true,
+  "requiresAdmin": false,
+  "runMode": "normal",
+  "order": 10
+}

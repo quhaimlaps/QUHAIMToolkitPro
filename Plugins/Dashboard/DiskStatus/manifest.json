@@ -1,0 +1,14 @@
+{
+  "id": "dashboard.disk.status",
+  "name": "حالة مساحة القرص",
+  "version": "1.0.0",
+  "author": "QUHAIM Labs",
+  "category": "🏠 لوحة التحكم",
+  "description": "عرض مساحة الأقراص الأساسية وحالة الامتلاء.",
+  "engine": "powershell",
+  "entry": "main.ps1",
+  "enabled": true,
+  "requiresAdmin": false,
+  "runMode": "normal",
+  "order": 20
+}

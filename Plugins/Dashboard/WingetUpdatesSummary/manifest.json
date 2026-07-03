@@ -1,0 +1,14 @@
+{
+  "id": "dashboard.winget.summary",
+  "name": "ملخص التحديثات",
+  "version": "1.0.0",
+  "author": "QUHAIM Labs",
+  "category": "🏠 لوحة التحكم",
+  "description": "ملخص سريع عن تحديثات البرامج المتوفرة عبر Winget.",
+  "engine": "powershell",
+  "entry": "main.ps1",
+  "enabled": true,
+  "requiresAdmin": false,
+  "runMode": "normal",
+  "order": 90
+}

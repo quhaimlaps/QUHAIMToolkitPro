@@ -1,0 +1,14 @@
+{
+  "id": "system.admincheck",
+  "name": "اختبار صلاحية المسؤول",
+  "version": "1.0.0",
+  "author": "QUHAIM Labs",
+  "category": "🖥️ أدوات النظام",
+  "description": "اختبار آمن للتأكد من تشغيل الأداة بصلاحية مسؤول بدون تعديل النظام.",
+  "engine": "powershell",
+  "entry": "main.ps1",
+  "enabled": true,
+  "requiresAdmin": true,
+  "runMode": "admin",
+  "order": 20
+}

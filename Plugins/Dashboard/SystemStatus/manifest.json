@@ -1,0 +1,14 @@
+{
+  "id": "dashboard.systemstatus",
+  "name": "حالة النظام",
+  "version": "1.0.0",
+  "author": "QUHAIM Labs",
+  "category": "🏠 لوحة التحكم",
+  "description": "يعرض حالة Windows وPowerShell وعدد الإضافات ووضع التشغيل.",
+  "engine": "powershell",
+  "entry": "main.ps1",
+  "enabled": true,
+  "requiresAdmin": false,
+  "runMode": "normal",
+  "order": 80
+}

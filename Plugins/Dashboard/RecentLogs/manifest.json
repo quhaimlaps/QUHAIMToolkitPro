@@ -1,0 +1,14 @@
+{
+  "id": "dashboard.recent.logs",
+  "name": "آخر السجلات",
+  "version": "1.0.0",
+  "author": "QUHAIM Labs",
+  "category": "🏠 لوحة التحكم",
+  "description": "عرض آخر أسطر من سجلات QUHAIM Toolkit Pro.",
+  "engine": "powershell",
+  "entry": "main.ps1",
+  "enabled": true,
+  "requiresAdmin": false,
+  "runMode": "normal",
+  "order": 60
+}

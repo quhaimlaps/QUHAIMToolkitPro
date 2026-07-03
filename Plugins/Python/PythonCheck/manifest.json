@@ -1,0 +1,14 @@
+{
+  "id": "python.check",
+  "name": "فحص Python",
+  "version": "1.0.0",
+  "author": "QUHAIM Labs",
+  "category": "🐍 أدوات بايثون",
+  "description": "فحص وجود Python وإصدار Python الحالي.",
+  "engine": "powershell",
+  "entry": "main.ps1",
+  "enabled": true,
+  "requiresAdmin": false,
+  "runMode": "normal",
+  "order": 10
+}

@@ -1,0 +1,14 @@
+{
+  "id": "dashboard.internet.status",
+  "name": "حالة الإنترنت",
+  "version": "1.0.0",
+  "author": "QUHAIM Labs",
+  "category": "🏠 لوحة التحكم",
+  "description": "فحص سريع لحالة الاتصال بالإنترنت.",
+  "engine": "powershell",
+  "entry": "main.ps1",
+  "enabled": true,
+  "requiresAdmin": false,
+  "runMode": "normal",
+  "order": 30
+}

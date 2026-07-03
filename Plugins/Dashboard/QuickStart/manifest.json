@@ -1,0 +1,14 @@
+{
+  "id": "dashboard.quickstart",
+  "name": "دليل البدء السريع",
+  "version": "1.0.0",
+  "author": "QUHAIM Labs",
+  "category": "🏠 لوحة التحكم",
+  "description": "إرشادات مختصرة لاستخدام QUHAIM Toolkit Pro بسرعة.",
+  "engine": "powershell",
+  "entry": "main.ps1",
+  "enabled": true,
+  "requiresAdmin": false,
+  "runMode": "normal",
+  "order": 50
+}

@@ -1,0 +1,13 @@
+{
+  "id": "category.pluginname",
+  "name": "Plugin Display Name",
+  "version": "1.0.0",
+  "author": "QUHAIM Labs",
+  "category": "Utilities",
+  "description": "Short description shown in the menu.",
+  "engine": "powershell",
+  "entry": "main.ps1",
+  "enabled": true,
+  "requiresAdmin": false,
+  "runMode": "normal"
+}

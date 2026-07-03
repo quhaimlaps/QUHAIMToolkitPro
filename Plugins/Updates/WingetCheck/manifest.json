@@ -1,0 +1,14 @@
+{
+  "id": "updates.wingetcheck",
+  "name": "فحص Winget",
+  "version": "1.0.0",
+  "author": "QUHAIM Labs",
+  "category": "📦 إدارة البرامج",
+  "description": "فحص وجود Winget بدون تحديث أو تعديل النظام.",
+  "engine": "powershell",
+  "entry": "main.ps1",
+  "enabled": true,
+  "requiresAdmin": false,
+  "runMode": "normal",
+  "order": 10
+}

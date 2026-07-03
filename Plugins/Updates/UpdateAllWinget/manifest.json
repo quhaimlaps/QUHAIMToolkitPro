@@ -1,0 +1,16 @@
+{
+  "id": "updates.winget.updateall",
+  "name": "تحديث كل البرامج",
+  "version": "1.0.0",
+  "author": "QUHAIM Labs",
+  "category": "📦 التحديثات",
+  "description": "معطل مؤقتًا: تحديث كل البرامج يحتاج مراجعة أمان قبل الاستخدام.",
+  "engine": "powershell",
+  "entry": "main.ps1",
+  "enabled": false,
+  "requiresAdmin": true,
+  "runMode": "admin",
+  "order": 9999,
+  "disabledReason": "Restricted by Brain v1.7.0: blind winget upgrade --all is not safe until reviewed.",
+  "hiddenByUpgrade": "0.4.5.38"
+}

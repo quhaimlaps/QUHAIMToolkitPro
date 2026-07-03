@@ -1,0 +1,14 @@
+{
+  "id": "dashboard.memory.status",
+  "name": "حالة الذاكرة",
+  "version": "1.0.0",
+  "author": "QUHAIM Labs",
+  "category": "🏠 لوحة التحكم",
+  "description": "عرض استخدام الذاكرة RAM بشكل سريع.",
+  "engine": "powershell",
+  "entry": "main.ps1",
+  "enabled": true,
+  "requiresAdmin": false,
+  "runMode": "normal",
+  "order": 40
+}

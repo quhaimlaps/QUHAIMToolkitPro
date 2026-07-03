@@ -1,0 +1,14 @@
+{
+  "id": "updates.winget.export",
+  "name": "تصدير قائمة البرامج المثبتة",
+  "version": "1.0.0",
+  "author": "QUHAIM Labs",
+  "category": "📦 التحديثات",
+  "description": "حفظ قائمة نظيفة للبرامج المثبتة داخل مجلد Data\\Downloads.",
+  "engine": "powershell",
+  "entry": "main.ps1",
+  "enabled": true,
+  "requiresAdmin": false,
+  "runMode": "normal",
+  "order": 20
+}

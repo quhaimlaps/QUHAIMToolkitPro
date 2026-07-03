@@ -1,0 +1,14 @@
+{
+  "id": "updates.manual.links",
+  "name": "روابط التحديث اليدوي",
+  "version": "1.0.0",
+  "author": "QUHAIM Labs",
+  "category": "📦 التحديثات",
+  "description": "روابط تحديث يدوي للبرامج المهمة عندما لا يكفي Winget.",
+  "engine": "powershell",
+  "entry": "main.ps1",
+  "enabled": true,
+  "requiresAdmin": false,
+  "runMode": "normal",
+  "order": 50
+}

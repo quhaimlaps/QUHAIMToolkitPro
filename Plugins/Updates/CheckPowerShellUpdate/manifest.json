@@ -1,0 +1,14 @@
+{
+  "id": "updates.powershell.check",
+  "name": "فحص تحديث PowerShell",
+  "version": "1.0.0",
+  "author": "QUHAIM Labs",
+  "category": "📦 التحديثات",
+  "description": "فحص إصدار PowerShell الحالي وإظهار طريقة تحديثه عبر Winget.",
+  "engine": "powershell",
+  "entry": "main.ps1",
+  "enabled": true,
+  "requiresAdmin": false,
+  "runMode": "normal",
+  "order": 10
+}

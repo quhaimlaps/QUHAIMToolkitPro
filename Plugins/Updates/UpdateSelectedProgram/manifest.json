@@ -1,0 +1,14 @@
+{
+  "id": "updates.winget.update.selected",
+  "name": "إدارة تحديثات البرامج",
+  "version": "1.0.8",
+  "author": "QUHAIM Labs",
+  "category": "📦 التحديثات",
+  "description": "عرض تحديثات Winget واختيار برنامج واحد لتحديثه بعد التأكيد، مع إعادة فحص القائمة بعد التحديث.",
+  "engine": "powershell",
+  "entry": "main.ps1",
+  "enabled": true,
+  "requiresAdmin": false,
+  "runMode": "normal",
+  "order": 30
+}

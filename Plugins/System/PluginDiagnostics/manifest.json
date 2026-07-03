@@ -1,0 +1,14 @@
+{
+  "id": "system.plugin.diagnostics",
+  "name": "تشخيص الإضافات",
+  "version": "1.0.0",
+  "author": "QUHAIM Labs",
+  "category": "🖥️ أدوات النظام",
+  "description": "عرض جميع الإضافات التي اكتشفها البرنامج ومساراتها.",
+  "engine": "powershell",
+  "entry": "main.ps1",
+  "enabled": true,
+  "requiresAdmin": false,
+  "runMode": "normal",
+  "order": 90
+}

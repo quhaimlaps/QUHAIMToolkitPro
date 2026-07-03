@@ -1,0 +1,16 @@
+{
+  "id": "updates.manual.checklist",
+  "name": "قائمة التحديث اليدوي",
+  "version": "1.0.0",
+  "author": "QUHAIM Labs",
+  "category": "📦 التحديثات",
+  "description": "معطل مؤقتًا: تم دمج التوجيه اليدوي مع أداة روابط التحديث اليدوي.",
+  "engine": "powershell",
+  "entry": "main.ps1",
+  "enabled": false,
+  "requiresAdmin": false,
+  "runMode": "normal",
+  "order": 9999,
+  "disabledReason": "Merged into updates.manual.links by v0.4.5.38 cleanup.",
+  "hiddenByUpgrade": "0.4.5.38"
+}

@@ -1,0 +1,40 @@
+# Build outputs
+Installer/Build/
+Installer/Releases/
+Installer/Releases/*.tmp
+*.log
+*.tmp
+
+# Runtime data
+/Logs/
+/Reports/
+/Data/Downloads/*.txt
+/Data/Downloads/*.log
+/Data/Downloads/*-raw-*.txt
+/Data/Downloads/*-clean-*.txt
+
+# Internal/private project memory
+/Docs/
+/Docs/QUHAIM Project Brain/
+/Docs/Development/
+/Docs/PROJECT_MEMORY.md
+/Docs/HusamToolkitPro_Project_Context.txt
+
+# Rollback and local backups
+/Installer/Rollback/
+/Backups/
+/*_Backups/
+
+# Local/editor files
+.vs/
+.vscode/
+desktop.ini
+Thumbs.db
+
+# Secrets and session transcripts
+*.secret
+*.secrets
+*.key
+*.pem
+*Session*.md
+*جلسة*.md

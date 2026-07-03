@@ -1,0 +1,14 @@
+{
+  "id": "dashboard.overview",
+  "name": "نظرة عامة على لوحة التحكم",
+  "version": "1.0.0",
+  "author": "QUHAIM Labs",
+  "category": "🏠 لوحة التحكم",
+  "description": "عرض ملخص سريع عن حالة QUHAIM Toolkit Pro.",
+  "engine": "powershell",
+  "entry": "main.ps1",
+  "enabled": true,
+  "requiresAdmin": false,
+  "runMode": "normal",
+  "order": 10
+}

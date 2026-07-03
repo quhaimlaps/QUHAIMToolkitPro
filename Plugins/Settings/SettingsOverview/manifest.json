@@ -1,0 +1,14 @@
+{
+  "id": "settings.overview",
+  "name": "نظرة عامة على الإعدادات",
+  "version": "1.0.0",
+  "author": "QUHAIM Labs",
+  "category": "⚙️ الإعدادات",
+  "description": "عرض الإعدادات الحالية للمشروع بدون تعديلها.",
+  "engine": "powershell",
+  "entry": "main.ps1",
+  "enabled": true,
+  "requiresAdmin": false,
+  "runMode": "normal",
+  "order": 10
+}

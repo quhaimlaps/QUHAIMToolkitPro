@@ -1,0 +1,14 @@
+{
+  "id": "logs.recent",
+  "name": "آخر السجلات",
+  "version": "1.0.0",
+  "author": "QUHAIM Labs",
+  "category": "📝 السجلات",
+  "description": "عرض آخر السجلات المسجلة داخل QUHAIM Toolkit Pro.",
+  "engine": "powershell",
+  "entry": "main.ps1",
+  "enabled": true,
+  "requiresAdmin": false,
+  "runMode": "normal",
+  "order": 10
+}

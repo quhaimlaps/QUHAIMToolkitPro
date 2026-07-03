@@ -1,0 +1,16 @@
+{
+  "id": "updates.winget.classify",
+  "name": "تصنيف التحديثات",
+  "version": "1.0.0",
+  "author": "QUHAIM Labs",
+  "category": "📦 التحديثات",
+  "description": "تصنيف تحديثات Winget إلى تحديثات آمنة وتحديثات تحتاج مراجعة، بدون تثبيت.",
+  "engine": "powershell",
+  "entry": "main.ps1",
+  "enabled": false,
+  "requiresAdmin": false,
+  "runMode": "normal",
+  "order": 9999,
+  "disabledReason": "Merged into updates.winget.update.selected by v0.4.5.37",
+  "hiddenByUpgrade": "0.4.5.37"
+}
