@@ -66,4 +66,6 @@ powershell.exe -File .\Installer\Build-QUHAIMToolkitProSetup.ps1
 
 QUHAIM Toolkit Pro is open source and reviewable. The official installer should be distributed with a SHA256 checksum and release notes. See `TRUST.md` for the user-facing safety statement.
 
-Official releases should also include a VirusTotal scan link after the release installer has been scanned. Until then, verify the installer with the published SHA256 checksum and only download it from official QUHAIM Labs release channels.
+Official releases should also include a VirusTotal scan link after the release installer has been scanned. Until then, verify release assets with the published SHA256 checksum and only download them from official QUHAIM Labs release channels.
+
+Unsigned EXE installers are not published when Microsoft or multiple reputable security vendors flag them. In that case, the project should use a signed installer/MSIX path or a source/portable ZIP release until the detection is resolved.

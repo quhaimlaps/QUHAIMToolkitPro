@@ -56,10 +56,12 @@ Official release notes should include a VirusTotal scan link after the installer
 
 Do not trust installers downloaded from unofficial sources. Verify the SHA256 checksum and compare it with the checksum published in the official release.
 
+If Microsoft or multiple reputable security vendors flag an installer, that installer must not be published as an official release asset until the issue is resolved through a safer packaging path, vendor false-positive review, or code signing.
+
 Current scan status placeholder:
 
 ```text
-VirusTotal scan: pending official release scan
+VirusTotal scan: EXE installer release blocked pending code signing or vendor review
 ```
 
 After scanning, replace the placeholder with the official VirusTotal URL:
