@@ -1,7 +1,7 @@
 {
   "LogEnabled": true,
   "AppName": "QUHAIM Toolkit Pro",
-  "Version": "0.4.6.0",
+  "Version": "0.4.6.1",
   "Channel": "Professional Foundation",
   "DefaultLanguage": "ar",
   "DeveloperMode": false,
@@ -27,7 +27,7 @@
   "MinimumWindowHeight": 620,
   "RtlProfessionalShell": true,
   "SafeRepairPatch": true,
-  "UiGeneration": "0.4.6.0",
+  "UiGeneration": "0.4.6.1",
   "UnifiedDashboard": true,
   "CleanBaseVersion": "0.4.3",
   "OfficialProjectRoot": "C:\\Program Files\\QUHAIM Labs\\QUHAIM Toolkit Pro",

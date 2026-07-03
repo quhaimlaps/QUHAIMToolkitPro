@@ -1,7 +1,24 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="256" height="256" viewBox="0 0 256 256">
-  <rect width="256" height="256" rx="52" fill="#0B1120"/>
-  <path d="M58 78c0-16.6 13.4-30 30-30h80c16.6 0 30 13.4 30 30v64c0 16.6-13.4 30-30 30h-15l30 36h-38l-25-36H88c-16.6 0-30-13.4-30-30V78z" fill="#38BDF8"/>
-  <path d="M91 84h74v24H91V84zm0 38h48v24H91v-24z" fill="#0B1120"/>
-  <circle cx="174" cy="134" r="13" fill="#0B1120"/>
-  <path d="M62 214h132" stroke="#A7F3D0" stroke-width="12" stroke-linecap="round"/>
+  <defs>
+    <linearGradient id="bg" x1="32" y1="24" x2="224" y2="232" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#111827"/>
+      <stop offset="0.55" stop-color="#0B1120"/>
+      <stop offset="1" stop-color="#020617"/>
+    </linearGradient>
+    <linearGradient id="mark" x1="62" y1="48" x2="200" y2="204" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#67E8F9"/>
+      <stop offset="0.5" stop-color="#38BDF8"/>
+      <stop offset="1" stop-color="#22C55E"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="14" stdDeviation="14" flood-color="#000000" flood-opacity="0.34"/>
+    </filter>
+  </defs>
+  <rect x="10" y="10" width="236" height="236" rx="54" fill="url(#bg)"/>
+  <rect x="18" y="18" width="220" height="220" rx="47" fill="none" stroke="#1E293B" stroke-width="2"/>
+  <path d="M128 42c42.5 0 77 31.7 77 70.7 0 23.8-12.8 44.8-32.5 57.6l18.8 31.7h-38.2l-11.7-19.4c-4.4.6-8.9.9-13.4.9-42.5 0-77-31.7-77-70.8C51 73.7 85.5 42 128 42Z" fill="url(#mark)" filter="url(#shadow)"/>
+  <path d="M92 86h71c7.7 0 14 6.3 14 14v44c0 7.7-6.3 14-14 14H92c-7.7 0-14-6.3-14-14v-44c0-7.7 6.3-14 14-14Z" fill="#07111F" opacity="0.96"/>
+  <path d="M101 106h54v14h-54v-14Zm0 28h34v14h-34v-14Z" fill="#E0F2FE"/>
+  <circle cx="160" cy="141" r="11" fill="#A7F3D0"/>
+  <path d="M64 209h128" stroke="#A7F3D0" stroke-width="10" stroke-linecap="round" opacity="0.9"/>
 </svg>
